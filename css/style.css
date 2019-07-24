@@ -1,0 +1,42 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+	background:#ebebeb;
+	padding:10px;
+}
+#form_busca{float:left; width:100%;}
+#form_busca label{
+	width:500px;
+	float:left;
+}
+#form_busca label span{
+	font:15px tahoma;
+	color:#666;
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+#form_busca input{padding:5px; background:white; border:1px solid #666; width:100%;}
+.botao{padding:4px 6px; color:white; font:16px Tahoma; background:linear-gradient(to bottom, #069, #09c 130%); border:1px solid #036; margin-top:10px;}
+table{background:white; text-align:center; font:17px Tahoma; color:#666;}
+table thead tr td{
+	background:linear-gradient(to bottom, #fff, #ccc 130%);
+	padding:5px;
+}
+table tbody tr td{padding:5px;}
+table tbody tr td#total{color:#090; font-weight:bold;}
+#resultado_busca{
+	float:left;
+	width:500px;
+	margin:10px 0;
+}
+#resultado_busca a{
+	float:left;
+	width:100%;
+	padding:6px;
+	border:1px solid #ccc;
+	background:#fff;
+	font:16px "Trebuchet MS", tahoma;
+	color:#666;
+	text-decoration:none;
+}
+#resultado_busca a:hover{background:#f0f0f0;}
